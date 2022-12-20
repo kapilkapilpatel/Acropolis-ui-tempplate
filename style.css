@@ -1,0 +1,642 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+/* ========common useful classes======= */
+.mt-1{
+    margin-top:1rem;
+}
+
+
+.mt-2{
+    margin-top:2rem;
+}
+
+
+.mt-3{
+    margin-top:3rem;
+}
+
+.mt-4{
+    margin-top:4rem;
+}
+
+.mt-5{
+    margin-top:5rem;
+}
+.py-half{
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.py-1{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+
+.py-2{
+     padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+
+.py-3{
+     padding-top:3rem;
+    padding-bottom: 3rem;
+}
+
+.py-4{
+     padding-top:4rem;
+    padding-bottom: 4rem;
+}
+
+.py-5{
+     padding-top:5rem;
+    padding-bottom: 5rem;
+}
+
+
+.px-1{
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+
+.px-2{
+     padding-left:2rem;
+    padding-right: 2rem;
+}
+
+
+.px-3{
+     padding-left:3rem;
+    padding-right: 3rem;
+}
+
+.px-4{
+     padding-left:4rem;
+    padding-right: 4rem;
+}
+
+.px-5{
+     padding-left:5rem;
+    padding-right: 5rem;
+}
+
+
+
+
+.list-unstyled{
+    list-style-type: none;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.bg-primary{
+    background-color: blue;
+}
+
+.bg-secondary{
+    background-color: gray;
+}
+
+.bg-danger{
+    background-color: red;
+}
+
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.gap-1{
+    gap:1rem;
+}
+
+.gap-2{
+    gap:2rem;
+}
+
+.gap-3{
+    gap:3rem;
+}
+
+.gap-4{
+    gap:4rem;
+}
+
+.gap-5{
+    gap:5rem;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-1{
+    flex:1
+}
+/* ========common useful classes end======= */ 
+.row {
+    width: 90%;
+    margin: 0px auto;
+    
+}
+.container-fluid{
+    background-color:#0d47a1;
+    border: 1px solid #fff;
+}
+.container-fluid ul li i{
+    color:#888;
+    margin-right: 10px;
+ }
+ .col-4 ul li i {
+    color:#888;
+    margin-right: 10px;
+    padding: 4px 1px;
+    color: #b3b3b1;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+ }
+ .col-8 ul li a{
+    font-size: 13px;
+    line-height: 32px;
+    color: #ffffff;
+    text-transform: none;
+    text-decoration: none;
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+    text-align: center;
+   
+
+ }
+ .small{
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+ }
+ .nav-col-8 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight:400;
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+}
+.jumbotron{
+    width: 100%;
+    height: 60vh;
+    background:url(https://aitr.ac.in/wp-content/uploads/2015/09/Toycathon2021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.segment-centent {
+    background-color:#f7f7f7;
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    text-transform: none;
+    font-weight: 700;
+    padding: 0;
+    color: #2196F3;
+}
+.tab-list ul li a{
+   
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #292929;
+    display: inline-block;
+    line-height: 48px;
+    text-decoration: none;
+  
+}
+.about-img-1 img {
+    width:100%;
+  
+}
+.about-text h1{
+    font-family: "Source Sans Pro";
+   
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+    text-transform: none;
+    font-weight: 700;
+    padding: 0;
+    color: #2196F3;
+}
+.about-text p{
+    color: #555555;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.btn{
+    border-color: #2196f3 !important;
+    border: 1px solid #2a9dd6;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#494949;
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 0;
+}
+.div1{
+    height:40px;
+    width:40px;
+    background: #3b5998;
+    border-color: #3b5998;
+    font-family: "FontAwesome" !important;
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 51px !important;
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 28px !important;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased
+
+}
+.div2{
+    height:40px;
+    width:40px; 
+    background: #00aced;
+    border-color: #00aced;
+    font-family: "FontAwesome" !important;
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 51px !important;
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 28px !important;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased
+  
+}
+.div3{
+    height:40px;
+    width:40px; 
+    background: #007bb6;
+    border-color: #007bb6;
+    font-family: "FontAwesome" !important;
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 51px !important;
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 28px !important;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased
+  
+}
+.div4{
+    height:40px;
+    width:40px; 
+    background: #bb0000;
+    border-color: #bb0000;
+    font-family: "FontAwesome" !important;
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 51px !important;
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 28px !important;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased
+  
+}
+.div5{
+    height:40px;
+    width:40px; 
+    background: #ff3300;
+    border-color: #ff3300;
+    font-family: "FontAwesome" !important;
+    margin-top: 2px;
+    color: #fff !important;
+    text-align: center !important;
+    display: block;
+    line-height: 51px !important;
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 28px !important;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased
+  
+}
+.parents{
+    position: absolute;
+    top:130px;
+
+    position: fixed;
+    right:0px;
+    bottom:0px;
+
+}
+.heading h1{
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;
+    color: #2196F3;
+}
+.heading h3{
+    text-align: center;
+    font-size: 18px;
+    line-height: 29px;
+    word-spacing: 0;
+    margin: 0 auto;
+    color: #555555;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container-2{
+    background-color:#eeeeee;
+}
+.main-1{
+    width:350px;
+    height:150px;
+    background-color: #f8f7f7;
+    display: block;
+    color: #494949;
+    transition: color 0.3s ease-in-out 0s;
+    font-size: 19px;
+    line-height: 27px;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.main-2{
+    width:350px;
+    height:150px;
+    background-color: #f8f7f7;
+    display: block;
+    color: #494949;
+    transition: color 0.3s ease-in-out 0s;
+    font-size: 19px;
+    line-height: 27px;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.main-3{
+    width:350px;
+    height:150px;
+    background-color: #f8f7f7;
+    display: block;
+    color: #494949;
+    transition: color 0.3s ease-in-out 0s;
+    font-size: 19px;
+    line-height: 27px;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.heading-1 h3{
+    position: relative;
+    cursor: pointer;
+    padding: 12px 50px 12px 15px;
+    margin: 1px 0;
+    background: #f2f2f2;
+    border: 1px solid #e5e5e5;
+    color: #555555;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+.row-1{
+    background-color:#ededed;
+    height:120px;
+}
+.heading-2 h3{
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 0px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    text-transform: none;
+    padding: 0;
+    color: #2196F3;
+}
+.btn-1 {
+    background-color: #2196f3;
+    border-color: #2196f3;
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff !important;
+}
+.heading-3 h1{
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+.heading-3 p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+}
+.container-4-fluid{
+    background-color:#b5b184;
+}
+.label{
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+    line-height: 38px;
+}
+.segment-content p{
+    margin-bottom: 0;
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Georgia, Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.img-holder{
+    border: 0;
+    padding: 35px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #fefefe;
+ }
+  .label-1{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro";
+  }
+  .div-1{
+    height:40px;
+    width:220px; 
+    font-family: Verdana, sans-serif;
+    top: 250px;
+    background-color: #FFFFFF;
+    color: #B90000;
+    border-style: solid;
+    border-width: 0px;
+    left: -2px;
+    cursor: pointer;
+    -webkit-transform-origin: 0 0;
+    transform: rotate(270deg);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    margin: 0;
+    padding: 6px 13px 8px 13px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.parents-1{
+    position: absolute;
+    top:250px;
+
+    position: fixed;
+    left:0px;
+    bottom:0px;
+}
+.div-2{
+    height:40px;
+    width:250px; 
+    background-color: #3024a3;
+    color: #f9f9f9;
+    transform: rotate(270deg);
+    display: block;
+    padding: 6px 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    transition: all 350ms ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: graysca;
+   
+ 
+ 
+}
+.parents-2{
+    position: absolute;
+    top:350px;
+
+    position: fixed;
+    left:-108px;
+    bottom:0px;
+}
+
+  
+
